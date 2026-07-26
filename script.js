@@ -9,5 +9,5 @@ function insert_Row() {
 	newRowData2.setAttribute('value','New Cell2');
 	newRow.append(newRowData1);
 	newRow.append(newRowData2);
-	teble.appendChild(newRow);
+	table.appendChild(newRow);
 }
