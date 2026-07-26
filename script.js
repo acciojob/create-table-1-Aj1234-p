@@ -7,7 +7,7 @@ function insert_Row() {
 	newRowData2.textContent = "New Cell2"
 	newRowData1.setAttribute('value','New Cell1');
 	newRowData2.setAttribute('value','New Cell2');
-	newRow.append(newRowData1);
-	newRow.append(newRowData2);
+	newRow.appendChild(newRowData1);
+	newRow.appendChild(newRowData2);
 	table.prepand(newRow);
 }
